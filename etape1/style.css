@@ -1,0 +1,43 @@
+#table_container {
+    width: 80%;
+    margin: 40px auto;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #007bba;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 13px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.col_number {
+    width: 8%;
+    text-align: center;
+}
+
+.col_text {
+    text-align: left;
+}
+
+th.col_text {
+    text-align: center;
+}
+
+.col_chkbox {
+    width: 8%;
+    text-align: center;
+}
